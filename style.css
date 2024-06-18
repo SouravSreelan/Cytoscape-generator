@@ -1,0 +1,75 @@
+
+
+  body {
+
+    background: #eee;
+  }
+  #cy {
+    width: 99%;
+    height: 98vh;
+    position: absolute;
+    top: 2;
+    left: 2;
+    z-index: 999;
+    border: 3px solid black;
+    background: #f8fbff;
+
+    
+  }
+  .hidden{
+    display: none;
+  }
+  #fileForm {
+    position: absolute;
+    top: 20vh;
+    left: 48%;
+    transform: translateX(-50%);
+    z-index: 1000;
+  }
+  button {
+    padding: 1.5em 5em;
+    background: #efefef;
+    border: none;
+    border-radius: 0.5rem;
+    color: #444;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    box-shadow: -6px -6px 14px rgba(255, 255, 255, 0.7),
+      -6px -6px 10px rgba(255, 255, 255, 0.5),
+      6px 6px 8px rgba(255, 255, 255, 0.075),
+      6px 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  button:hover {
+    box-shadow: -2px -2px 6px rgba(255, 255, 255, 0.6),
+      -2px -2px 4px rgba(255, 255, 255, 0.4),
+      2px 2px 2px rgba(255, 255, 255, 0.05), 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  button:active {
+    box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.7),
+      inset -2px -2px 4px rgba(255, 255, 255, 0.5),
+      inset 2px 2px 2px rgba(255, 255, 255, 0.075),
+      inset 2px 2px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  .input-class{
+    height: 2vh;
+    padding: 2vh;
+    box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.7),
+    inset -2px -2px 4px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 2px rgba(255, 255, 255, 0.075),
+    inset 2px 2px 4px rgba(0, 0, 0, 0.15);
+    margin-left: 50px;
+    margin-top: 3vh;
+
+  }
+  h1 {
+    font-size: 70px;
+    background: -webkit-linear-gradient(#12d4a4, #0966d1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
