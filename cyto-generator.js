@@ -1,4 +1,3 @@
-
 document
 .getElementById("submitButton")
 .addEventListener("click", handleSubmit, false);
@@ -192,4 +191,4 @@ const stepY = 100;
 
     cy.fit();
 
-}
+}  
