@@ -54,7 +54,7 @@ function processData(data) {
         }
       }
     }
-  
+   
     const threshold = maxWeight / 2;
     console.log(threshold)
   
@@ -106,14 +106,12 @@ function processData(data) {
             nodesWithoutEdges.push({ data: { id: node, label: formatLabel(node) } });
         }
     });
-
+  
     return { nodes, edges, minWeight, maxWeight, threshold, nodesWithoutEdges };
   }
   function formatLabel(label) {
     return label.replace(/_/g, '\n');
   }
-  
-  
 
 function initializeCytoscape(elements, minWeight, maxWeight, threshold, nodesWithoutEdges) {
     const cy= cytoscape({
