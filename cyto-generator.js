@@ -6,7 +6,7 @@ function handleSubmit(e) {
 e.preventDefault();
 const fileInput = document.getElementById("fileInput");
 const file = fileInput.files[0];
-
+ 
 if (file) {
   const reader = new FileReader();
 
@@ -60,7 +60,7 @@ function processData(data) {
   
     headers.forEach((node) => {
       nodes.push({ data: { id: node, label: formatLabel(node) } });
-    });
+    });  
   
     for (let i = 1; i < data.length; i++) {
       const row = data[i];
