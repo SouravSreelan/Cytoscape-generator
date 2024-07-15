@@ -30,7 +30,7 @@ if (file) {
   reader.readAsArrayBuffer(file);
 } else {
   alert("Please choose a file before submitting.");
-}
+}   
 }
 
 function processData(data) {
