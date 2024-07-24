@@ -1,6 +1,4 @@
-document
-.getElementById("submitButton")
-.addEventListener("click", handleSubmit, false);
+document.getElementById("submitButton").addEventListener("click", handleSubmit, false);
 
 function handleSubmit(e) {
 e.preventDefault();
