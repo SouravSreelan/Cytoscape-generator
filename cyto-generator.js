@@ -24,7 +24,7 @@ if (file) {
     document.getElementById("fileForm").style.display = "none";
     document.getElementById("cy").classList.remove("hidden")
   };
-
+  
   reader.readAsArrayBuffer(file);
 } else {
   alert("Please choose a file before submitting.");
