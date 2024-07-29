@@ -97,7 +97,7 @@ function processData(data) {
             });
           }
         }
-      }
+      } 
     }
     headers.forEach((node) => {
         if (!edges.some((edge) => edge.data.source === node || edge.data.target === node)) {
