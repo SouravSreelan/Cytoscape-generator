@@ -1,5 +1,5 @@
 document.getElementById("submitButton").addEventListener("click", handleSubmit, false);
-
+     
 function handleSubmit(e) {
 e.preventDefault();
 const fileInput = document.getElementById("fileInput");
