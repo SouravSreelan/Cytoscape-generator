@@ -26,7 +26,7 @@ To use the Cytoscape Generator, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/ySouravSreelan/Cytoscape-generator.git
+    [git clone https://github.com/SouravSreelan/Cytoscape-generator.git](https://github.com/SouravSreelan/Cytoscape-generator.git)
     ```
 2. Open the `index.html` file in your web browser.
 
