@@ -18,7 +18,7 @@ The Cytoscape Generator is a tool designed to create and visualize complex netwo
 
 - **Interactive Graphs**: Easily create and manipulate nodes and edges.
 - **Customizable Styles**: Apply different styles to nodes and edges.
-- **Data Import/Export**: Import data from various formats and export your graphs.
+- **Data Import/Export**: Import data from various formats and export your graphs. 
 
 ## Usage
 
@@ -55,4 +55,5 @@ Contributions are welcome! Please follow these steps to contribute:
 
 - Cytoscape.js for providing the core library.
 - All contributors and users for their support and feedback.
+
 
