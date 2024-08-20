@@ -1,4 +1,4 @@
-# Cytoscape Generator
+# Cytoscape Generator 
 
 This repository contains a Cytoscape generator created using Cytoscape.js, a graph theory library for visualization and analysis.
 
