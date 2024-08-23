@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <title>Cose layout</title>
     <link rel="stylesheet" href="style.css" />
@@ -10,14 +11,41 @@
     <script src="https://unpkg.com/cytoscape-avsdf/cytoscape-avsdf.js"></script>
 
     <style></style>
-  </head>
-  <body>
-    <div id="fileForm"> 
-      <center><h1>Cytoscape Generator</h1></center>
-      <input type="file" class="input-class" id="fileInput" />
-      <button id="submitButton">Submit</button>
-    </div>
+</head>
+
+<body>
+    <header id="fileForm">
+        <div class="content">
+            <center>
+                <h1>Cytoscape Generator</h1>
+            </center>
+            <input type="file" class="input-class" id="fileInput" />
+            <button id="submitButton">Submit</button>
+        </div>
+    </header>
+    <section id="contact-section">
+        <h1 class="contact-h1">Contact Us</h1>
+        <form class="contact-form" action="https://formspree.io/f/meojpqqd" method="POST">
+            <div>
+                <label>Name</label>
+                <input type="text" id="name" name="name" placeholder="Fullname" required>
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div>
+                <label>Message</label>
+                <textarea name="message" id="message" placeholder="write message...." required></textarea>
+            </div>
+            <input type="submit" value="send" id="submit">
+
+        </form>
+
+    </section>
+
     <div class="hidden" id="cy"></div>
     <script src="cyto-generator.js"></script>
-  </body>
+</body>
+
 </html>
