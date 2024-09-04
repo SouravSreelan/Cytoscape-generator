@@ -15,7 +15,7 @@ This repository contains a Cytoscape generator created using Cytoscape.js, a gra
 The Cytoscape Generator is a tool designed to create and visualize complex networks and graphs. It leverages the power of Cytoscape.js to provide an interactive and customizable experience.
 
 ## Features
-
+   
 - **Interactive Graphs**: Easily create and manipulate nodes and edges.
 - **Customizable Styles**: Apply different styles to nodes and edges.
 - **Data Import/Export**: Import data from various formats and export your graphs. 
