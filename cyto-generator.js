@@ -22,7 +22,7 @@ if (file) {
     initializeCytoscape(nodes.concat(edges), minWeight, maxWeight, threshold, nodesWithoutEdges);
 
     document.getElementById("fileForm").style.display = "none";
-    document.getElementById("cy").classList.remove("hidden")
+    document.getElementById("cy").classList.remove("hidden");
   };
   
   reader.readAsArrayBuffer(file);
@@ -46,9 +46,9 @@ function processData(data) {
         const weights = row[j].split(",").map(Number);
         if (weights.length > 1) {
           maxWeight = Math.max(maxWeight, ...weights);
-          console.log(maxWeight)
+          console.log(maxWeight);
           minWeight = Math.min(minWeight, ...weights);
-          console.log(minWeight)
+          console.log(minWeight);
         }
       }
     }
