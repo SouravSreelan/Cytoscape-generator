@@ -30,7 +30,7 @@ To use the Cytoscape Generator, follow these steps:
     ```
 2. Open the `cyto-generator.html` file in your web browser.
 
-Ensure you have an internet connection to load the necessary CDNs for Cytoscape.js and any other libraries.
+Ensure you have an internet connection to load the necessary CDNs for Cytoscape.js and any other libraries. 
 
 ## Contributing
 
