@@ -34,7 +34,7 @@ Ensure you have an internet connection to load the necessary CDNs for Cytoscape.
 
 ## Contributing
 
-Contributions are welcome! Please follow these steps to contribute:
+Contributions are welcome! Please follow these steps to contribute: 
 
 1. Fork the repository.
 2. Create a new branch:
