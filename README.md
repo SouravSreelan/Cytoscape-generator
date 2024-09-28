@@ -17,7 +17,7 @@ The Cytoscape Generator is a tool designed to create and visualize complex netwo
 ## Features 
    
 - **Interactive Graphs**: Easily create and manipulate nodes and edges.
-- **Customizable Styles**: Apply different styles to nodes and edges.
+- **Customizable Styles**: Apply different styles to nodes and edges. 
 - **Data Import/Export**: Import data from various formats and export your graphs. 
 
 ## Usage
